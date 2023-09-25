@@ -1,0 +1,18 @@
+.tab-pane.active{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.d-flex{
+    display: grid!important;
+    grid-template-columns: 2fr 8fr;
+}
+
+.card p{
+    margin: 10px 0;
+}
+
+.card{
+    margin-inline: auto;
+}
